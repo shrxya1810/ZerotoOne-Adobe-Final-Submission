@@ -1,4 +1,4 @@
-# 🚀 Connect-the-Dots: AI-Powered Research Canvas
+# 🚀 Connect-the-Dots: Intelligent PDF Analyser
 
 ## 🔑 **IMPORTANT: Adobe Embed API Key**
 ```
@@ -29,186 +29,127 @@ Wait for backend to start. We are good to go when **INFO:     Application startu
 
 ---
 
-# Video Demo
-<a>https://drive.google.com/file/d/1RcAaZyuTcGVVVDMv-PSx8c70OKbpVHP-/view?usp=sharing<a>
+## 🎥 **Video Demo & Walkthrough**
 
+<div align="center">
 
-# Project Overview
-Connect-the-Dots is a cutting-edge research platform that revolutionizes how researchers, students, and professionals interact with documents. By combining advanced AI capabilities with an intuitive interface, it transforms static PDFs into dynamic, interconnected knowledge networks.
+[![Connect-the-Dots Demo](https://img.shields.io/badge/🎬-Watch%20Demo%20Video-blue?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1RcAaZyuTcGVVVDMv-PSx8c70OKbpVHP-/view?usp=sharing)
 
-### **🎯 Core Mission**
-Empower researchers to discover hidden connections, generate intelligent insights, and build comprehensive understanding across multiple documents through AI-powered analysis and visualization.
+**📺 [Click here to watch the full demo](https://drive.google.com/file/d/1RcAaZyuTcGVVVDMv-PSx8c70OKbpVHP-/view?usp=sharing)**
+
+*Experience Connect-the-Dots in action: See how AI transforms static PDFs into dynamic knowledge networks*
+
+</div>
 
 ---
 
-## ✨ **Key Features**
+## 🎯 **Project Overview**
 
-### 🔬 **AI-Powered Document Analysis**
-- **Intelligent Text Processing**: Advanced AI algorithms analyze document content for deeper understanding
-- **Smart Content Extraction**: Automatically identifies key concepts, themes, and relationships
-- **Multi-Format Support**: Seamlessly handles PDF, DOCX, TXT, and web content
-- **Context-Aware Analysis**: AI understands document context and generates relevant insights
+**Connect-the-Dots** is a revolutionary research platform that transforms passive document reading into an active, engaging, and insightful knowledge-building journey. Built for researchers, students, analysts, developers, and writers, it addresses the core challenges of modern research workflows:
 
-### 🎭 **Advanced Persona-Based Research Configuration**
-- **Role-Specific Analysis**: Tailor AI analysis to your specific role and objectives
-- **6 Specialized Personas**:
-  - **🔬 Researcher**: Academic focus with methodology analysis, hypothesis generation, and literature review
-  - **🎓 Student**: Learning optimization with concept explanations, study guides, and knowledge gaps identification
-  - **📊 Analyst**: Business intelligence with data insights, trend analysis, and strategic recommendations
-  - **💻 Developer**: Technical documentation focus with code analysis, architecture insights, and implementation guidance
+### **🚨 The Problem We Solve**
+- **Passive Consumption**: Static PDFs lead to shallow understanding and weak retention
+- **Information Fragmentation**: Lost connections between concepts across multiple documents
+- **Time-Intensive Analysis**: Manual extraction of insights and contradictions is slow
+- **Context Limitations**: Traditional reading misses cross-document insights and relationships
+
+### **💡 Our Solution**
+Connect-the-Dots leverages **AI-powered document analysis**, **persona-based research perspectives**, and **interconnected knowledge graphs** to transform scattered reading into connected understanding. Users discover hidden insights, connect ideas across sources, and build comprehensive knowledge networks.
+
+---
+
+## ✨ **Core Features & Capabilities**
+
+### 🔬 **Smart Document Processing & Navigation**
+- **Bulk PDF Upload**: Upload multiple documents simultaneously with intelligent workspace management
+- **Adobe Embed API Integration**: Professional PDF viewer with advanced navigation capabilities
+- **Smart Outline Extraction**: AI-powered document structure analysis with interactive navigation
+- **Go-to-Page Functionality**: Direct navigation from outline items and search results
+- **Document Mini-Map**: Visual representation of content density and insights distribution
+
+### 🎭 **Advanced Persona-Based Research Analysis**
+- **6 Specialized Research Personas**:
+  - **🔬 Researcher**: Academic focus with methodology analysis, hypothesis generation, literature review
+  - **🎓 Student**: Learning optimization with concept explanations, study guides, knowledge gaps identification
+  - **📊 Analyst**: Business intelligence with data insights, trend analysis, strategic recommendations
+  - **💻 Developer**: Technical documentation focus with code analysis, architecture insights, implementation guidance
   - **✍️ Writer**: Content creation with fact-checking, narrative structure, and style analysis
   - **🎯 Custom**: User-defined analysis with personalized prompts and custom objectives
-- **Intelligent Prompt Engineering**:
-  - **Context-Aware Prompts**: AI-generated prompts based on document type and content
-  - **Persona-Specific Templates**: Pre-built prompt templates optimized for each role
-  - **Dynamic Prompt Adaptation**: Real-time prompt refinement based on user interactions
-  - **Prompt Performance Metrics**: Success rate tracking and optimization
-- **Advanced Configuration**:
-  - **Multi-Persona Analysis**: Apply multiple personas to the same document for comprehensive insights
-  - **Persona Learning**: System learns from user feedback to improve persona effectiveness
-  - **Cross-Document Personas**: Maintain persona consistency across document sessions
-  - **Persona Analytics**: Track which personas generate the most valuable insights
+- **Intelligent Prompt Engineering**: Context-aware prompts based on document type and content
+- **Cross-Document Analysis**: Maintains persona consistency across multiple documents
+- **Performance Tracking**: Analytics on which personas generate the most valuable insights
 
-### 💡 **Intelligent Insight Generation**
-- **Multi-Type Insights**: Summary, Related Content, Contradictions, and Enhancements
-- **Confidence Scoring**: AI-generated confidence levels for each insight
-- **Source Tracking**: Complete traceability of insights to source documents
-- **Related Sections**: Automatic identification of connected content across documents
-- **Insight Feedback System**: Rate and improve AI-generated insights
+### 🤖 **AI-Powered Intelligence Engine**
+- **Google Gemini 2.5 Flash Integration**: Advanced LLM for document analysis and insight generation
+- **Multi-Type Insights Generation**:
+  - **Smart Summaries**: Context-aware document overviews with key takeaways
+  - **Related Content Discovery**: Cross-document connections and thematic relationships
+  - **Contradiction Detection**: AI-powered identification of conflicting information
+  - **Enhancement Suggestions**: Recommendations for content improvement and expansion
+- **Confidence Scoring**: AI-generated confidence levels for each insight with source traceability
+- **Hybrid Search Capabilities**: Combines semantic (FAISS) and keyword (SQLite FTS5) search for optimal results
 
-### 🎧 **Advanced Audio & Podcast Features**
-- **High-Quality Text-to-Speech**: 
-  - **Azure Cognitive Services**: Premium neural voices with natural speech patterns
-  - **Voice Selection**: Multiple voice options (AriaNeural, JennyNeural, etc.)
-  - **SSML Support**: Speech Synthesis Markup Language for advanced audio control
-  - **Audio Optimization**: 24kHz sample rate for crystal-clear audio quality
-- **AI-Generated Podcast Creation**:
-  - **Conversational Overview**: Transform documents into engaging podcast-style discussions
-  - **Content Synthesis**: AI creates natural dialogue from technical content
-  - **Topic Summarization**: Automatic generation of key talking points
-  - **Multi-Document Podcasts**: Cross-document analysis in audio format
-- **Advanced Audio Controls**:
-  - **Playback Speed Control**: 0.5x to 2x speed adjustment with pitch correction
-  - **Volume Control**: Precise audio level management
-  - **Progress Seeking**: Click-to-seek functionality with visual progress bar
-  - **Audio Bookmarking**: Save important audio timestamps
-  - **Download Support**: Export generated audio in multiple formats (MP3, WAV)
-- **Real-Time Audio Processing**:
-  - **Streaming Synthesis**: On-demand audio generation without pre-processing delays
-  - **Chunk-Based Processing**: Efficient handling of large documents (5000+ chars)
-  - **Error Recovery**: Robust error handling with automatic retry mechanisms
+### 🎧 **Professional Audio & Podcast Generation**
+- **Azure Cognitive Services TTS**: Premium neural voices with natural speech patterns for podcast features
+- **AI-Generated Podcast Scripts**: Transform technical content into engaging conversational dialogues
+- **Multi-Voice Support**: Multiple voice options (AriaNeural, JennyNeural, etc.) with SSML support
+- **Advanced Audio Controls**: Playback speed (0.5x-2x), volume control, progress seeking
+- **Audio Export**: Download generated audio in MP3/WAV formats for offline consumption
+- **Real-Time Processing**: Streaming synthesis with chunk-based processing for large documents
 
-### 🔍 **Interactive Document Workspace**
-- **Smart Document Viewer**: Advanced PDF viewer with zoom, navigation, and selection tools
-- **Text Selection & Highlighting**: Interactive text selection with AI-powered analysis
-- **Document Mini-Map**: Visual representation of document insights density
-- **Page Navigation**: Efficient document browsing with page indicators
-- **Document Actions**: Rotate, download, and fullscreen capabilities
-
-### 🧭 **Advanced Knowledge Graph Visualization**
-- **Dynamic Node Creation**: Automatic generation of knowledge nodes from document content using NLP embeddings
+### 🧠 **Dynamic Knowledge Graph Visualization**
 - **Mathematical Graph Algorithms**:
-  - **PageRank Algorithm**: Node importance calculation based on centrality measures
-  - **Community Detection**: Louvain algorithm for identifying concept clusters
-  - **Force-Directed Layout**: Spring-embedder algorithm for optimal node positioning
-  - **Minimum Spanning Tree**: Efficient edge selection for graph simplification
-  - **Shortest Path**: Dijkstra's algorithm for concept relationship discovery
-- **Graph Analytics**:
-  - **Centrality Metrics**: Betweenness, closeness, and eigenvector centrality
-  - **Clustering Coefficient**: Network density and connectivity analysis
-  - **Graph Diameter**: Maximum shortest path length calculations
-  - **Modularity Score**: Community structure quality assessment
-- **Interactive Exploration**: Click and explore knowledge graph nodes with real-time analytics
-- **Multi-Document Integration**: Cross-document concept linking with similarity scoring
-- **Graph Navigation**: Intuitive controls with zoom, pan, and focus capabilities
+  - **Cosine Similarity**: Vectorized similarity calculation using sklearn for optimal performance
+  - **Jaccard Similarity**: Text-based similarity with batch processing optimization
+  - **Length Similarity Penalty**: Document length normalization for fair comparison
+  - **Community Detection**: Advanced clustering algorithms for concept grouping
+- **Interactive Exploration**: Click and explore knowledge nodes with real-time analytics
+- **Cross-Document Linking**: Semantic relationships with similarity scoring and confidence metrics
+- **Graph Analytics**: Centrality metrics, clustering coefficients, modularity scores
 
-### 🎨 **Modern User Interface**
-- **Glassmorphism Design**: Beautiful, modern UI with glass-like effects
+### 🔍 **Advanced Search & Discovery**
+- **Semantic Search**: FAISS-based similarity search with multi-qa-mpnet-base-dot-v1 embeddings
+- **Keyword Search**: SQLite FTS5 with BM25 ranking for precise phrase matching
+- **Hybrid Fusion**: Intelligent combination of semantic and keyword results with configurable weights
+- **Result Diversification**: Advanced merging algorithms for diverse, relevant results
+- **Optimized Chunking**: Intelligent content chunking with metadata preservation
+
+### 🎨 **Modern, Responsive User Interface**
+- **Glassmorphism Design**: Beautiful, modern UI with glass-like effects and smooth animations
 - **Dark Theme**: Professional dark theme optimized for extended research sessions
-- **Responsive Layout**: Fully responsive design for all device sizes
-- **Smooth Animations**: GSAP-powered animations for enhanced user experience
-- **Intuitive Navigation**: Clear, logical navigation structure
-
-### 📱 **Smart Sidebar System**
-- **Collapsible Panels**: Space-efficient sidebar design with expand/collapse functionality
-- **Document Management**: Easy document organization and switching
-- **Quick Actions**: Fast access to common research tasks
-- **Context-Aware Content**: Sidebar content adapts to current document and selection
-
-### 🚀 **Journey-Based Workflow**
-- **Step-by-Step Guidance**: Visual progress tracking through research workflow
-- **Interactive Tutorials**: Built-in walkthroughs for new users
-- **Progress Indicators**: Clear visualization of research progress
-- **Workflow Optimization**: Streamlined research process from upload to insights
+- **Responsive Layout**: Fully responsive design for all device sizes with mobile-first approach
+- **GSAP Animations**: Professional-grade animations with timeline control and performance optimization
+- **Intuitive Navigation**: Clear, logical navigation structure with collapsible sidebar panels
 
 ---
 
-## 🛠 **Advanced Technology Stack & Architecture**
+## 🏗️ **System Architecture & Technology Stack**
 
-### **Frontend Framework & Core Technologies**
+### **Frontend Architecture**
 - **React 18**: Latest React features with concurrent rendering, Suspense, and automatic batching
 - **TypeScript 5.0+**: Full type safety with advanced type inference and enhanced developer experience
 - **Vite 5.0+**: Lightning-fast build tool with HMR, native ESM, and optimized bundling
-- **SWC Compiler**: Ultra-fast JavaScript/TypeScript compilation with tree-shaking
+- **Zustand**: Lightweight, scalable state management with TypeScript support and DevTools integration
 
-### **State Management & Data Flow**
-- **Zustand**: Lightweight, scalable state management with TypeScript support
-- **Immer Integration**: Immutable state updates with structural sharing
-- **DevTools Integration**: Full Redux DevTools support for debugging and time-travel
-- **Persistent Storage**: Local storage sync for user preferences and session data
-
-### **AI & Backend Integration**
-- **FastAPI Backend**: High-performance Python API with automatic OpenAPI documentation
+### **Backend & AI Services**
+- **FastAPI**: High-performance Python API with automatic OpenAPI documentation
 - **Google Gemini 2.5 Flash**: Advanced LLM for document analysis and insight generation
-- **Azure Cognitive Services**: Premium text-to-speech with neural voice synthesis
+- **Azure Cognitive Services**: Premium text-to-speech with neural voice synthesis for podcast features
 - **FAISS Vector Database**: Efficient similarity search with GPU acceleration support
 - **SQLite Database**: Lightweight, embedded database for session and metadata storage
 
 ### **Document Processing Pipeline**
 - **PyMuPDF (fitz)**: High-performance PDF text extraction and analysis
-- **Sentence Transformers**: Multi-language sentence embeddings (multi-qa-mpnet-base-dot-v1)
+- **Sentence Transformers**: Multi-language sentence embeddings with fallback support
 - **Spacy NLP**: Advanced natural language processing with entity recognition
 - **Transformers**: Hugging Face model integration for text analysis
 
-### **Styling, UI & Visual Design**
+### **UI/UX & Visualization**
 - **Tailwind CSS 3.0+**: Utility-first CSS with JIT compilation and custom design system
 - **Shadcn/ui**: Radix-based accessible components with Tailwind integration
-- **Lucide Icons**: 1000+ beautiful, consistent SVG icons with tree-shaking support
-- **GSAP**: Professional-grade animations with timeline control and performance optimization
 - **React Force Graph**: Interactive graph visualization with WebGL acceleration
-
-### **Graph & Mathematical Libraries**
 - **D3.js**: Data-driven graph computations and force simulations
-- **NetworkX (Python)**: Advanced graph analysis algorithms and metrics
-- **NumPy & SciPy**: Mathematical computations for graph algorithms
-- **Plotly.js**: Interactive data visualization with WebGL rendering
-
-### **Audio Processing & Generation**
-- **Azure Speech SDK**: Premium neural text-to-speech synthesis
-- **Web Audio API**: Client-side audio manipulation and effects
-- **MediaRecorder API**: Audio recording and processing capabilities
-- **Audio Context**: Real-time audio analysis and visualization
-
-### **Development Tools & Quality**
-- **ESLint & Prettier**: Code quality enforcement with custom rules
-- **Husky**: Git hooks for pre-commit quality checks
-- **Vitest**: Fast unit testing with native ESM support
-- **Playwright**: End-to-end testing with cross-browser support
-- **Storybook**: Component development and documentation
-
-### **Build Optimization & Performance**
-- **Code Splitting**: Route and component-level splitting with dynamic imports
-- **Tree Shaking**: Dead code elimination with Rollup optimization
-- **Bundle Analysis**: Webpack bundle analyzer with size optimization
-- **Service Workers**: Background sync and caching strategies
-- **CDN Integration**: Global content delivery with edge caching
-
-### **Deployment & Infrastructure**
-- **Docker**: Multi-stage containerization with production optimization
-- **Docker Compose**: Development environment orchestration
-- **Netlify/Vercel**: Global CDN with serverless function support
-- **CI/CD Pipeline**: Automated testing, building, and deployment
-- **Environment Management**: Multi-environment configuration with secrets management
+- **GSAP**: Professional-grade animations with timeline control and performance optimization
 
 ---
 
@@ -218,8 +159,9 @@ Empower researchers to discover hidden connections, generate intelligent insight
 - Node.js 18.0+ 
 - npm or yarn package manager
 - Modern web browser with ES6+ support
+- Docker (for containerized deployment)
 
-### **Installation**
+### **Local Development Setup**
 
 ```bash
 # Clone the repository
@@ -242,7 +184,7 @@ npm run typecheck
 npm run test
 ```
 
-### **Environment Setup**
+### **Environment Configuration**
 
 #### **Required API Keys**
 ```bash
@@ -258,7 +200,7 @@ export AZURE_TTS_KEY="your_azure_speech_key"
 export AZURE_SPEECH_REGION="eastus"
 ```
 
-#### **Docker Setup**
+#### **Docker Deployment**
 ```bash
 # Build the Docker image
 docker build -t intelligentpdf .
@@ -275,33 +217,56 @@ docker run \
 ```
 
 #### **Environment Variables Reference**
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `ADOBE_EMBED_API_KEY` | ✅ **YES** | Adobe Embed API Key: `98e7a97c303a4803b955a5af21f1185f` |
-| `GEMINI_API_KEY` | ✅ **YES** | Google Gemini API for AI analysis |
-| `AZURE_TTS_KEY` | ⚡ Optional | Azure Speech Services for audio generation |
-| `AZURE_TTS_ENDPOINT` | ⚡ Optional | Custom Azure TTS endpoint (uses default if not set) |
-| `AZURE_SPEECH_REGION` | ⚡ Optional | Azure region (default: eastus) |
+| Variable | Required | Description | Default |
+|----------|----------|-------------|---------|
+| `ADOBE_EMBED_API_KEY` | ✅ **YES** | Adobe Embed API Key: `98e7a97c303a4803b955a5af21f1185f` | - |
+| `GEMINI_API_KEY` | ✅ **YES** | Google Gemini API for AI analysis | - |
+| `AZURE_TTS_KEY` | ⚡ Optional | Azure Speech Services for audio generation | - |
+| `AZURE_TTS_ENDPOINT` | ⚡ Optional | Custom Azure TTS endpoint | Default Azure endpoint |
+| `AZURE_SPEECH_REGION` | ⚡ Optional | Azure region | `eastus` |
 
 ---
 
 ## 📁 **Project Structure**
 
 ```
-connect-the-dots/
-├── client/                          # Frontend React application
-│   ├── components/                  # Reusable UI components
-│   │   ├── ui/                     # Shadcn/ui components
-│   │   ├── workspace/              # Workspace-specific components
-│   │   └── ...                     # Other component categories
-│   ├── pages/                      # Application pages
-│   ├── hooks/                      # Custom React hooks
-│   ├── lib/                        # Utility libraries and store
-│   └── global.css                  # Global styles and CSS variables
-├── server/                         # Backend API (Python/FastAPI)
-├── shared/                         # Shared utilities and types
-├── netlify/                        # Netlify serverless functions
-└── docs/                           # Documentation and guides
+ZerotoOne-Adobe-Final-Submission/
+├── Connect-the-Dots-clean-main/           # Main project directory
+│   ├── Connect-the-Dots-clean-main/       # Nested project structure
+│   │   ├── client/                        # Frontend React application
+│   │   │   ├── components/                # Reusable UI components
+│   │   │   │   ├── ui/                    # Shadcn/ui components
+│   │   │   │   ├── workspace/             # Workspace-specific components
+│   │   │   │   ├── persona/               # Persona analysis components
+│   │   │   │   └── AdobeEmbedViewer.tsx   # Adobe PDF viewer integration
+│   │   │   ├── pages/                     # Application pages and routing
+│   │   │   ├── hooks/                     # Custom React hooks
+│   │   │   ├── lib/                       # Utility libraries and Zustand store
+│   │   │   └── global.css                 # Global styles and CSS variables
+│   │   ├── server/                        # Backend API (Python/FastAPI)
+│   │   │   ├── app.py                     # Main FastAPI application
+│   │   │   ├── pdf_extractor.py           # PDF processing and extraction
+│   │   │   ├── hierarchy_enhancer.py      # Document structure enhancement
+│   │   │   └── requirements.txt           # Python dependencies
+│   │   ├── shared/                        # Shared utilities and types
+│   │   ├── netlify/                       # Netlify serverless functions
+│   │   └── package.json                   # Frontend dependencies
+├── unified-doc-intelligence/              # Alternative backend implementation
+│   ├── backend/                           # FastAPI backend
+│   │   ├── app.py                         # Main application with router mounting
+│   │   ├── routers/                       # API endpoint definitions
+│   │   │   ├── search.py                  # Semantic, keyword, and hybrid search
+│   │   │   ├── insights.py                # AI-powered insights generation
+│   │   │   ├── persona.py                 # Persona-based analysis
+│   │   │   ├── podcast.py                 # Audio generation and TTS
+│   │   │   ├── graph.py                   # Knowledge graph algorithms
+│   │   │   └── extract_1a.py             # PDF structure extraction
+│   │   ├── services/                      # Business logic services
+│   │   ├── models/                        # Data schemas and models
+│   │   └── settings.py                    # Configuration management
+│   ├── start_backend.py                   # Backend startup script
+│   └── requirements.txt                   # Python dependencies
+└── Dockerfile                             # Docker configuration
 ```
 
 ---
@@ -311,133 +276,105 @@ connect-the-dots/
 ### **Persona Configuration**
 The system supports 6 predefined research personas, each optimized for different use cases:
 
-- **Researcher**: Academic and professional research focus
-- **Student**: Learning and academic project optimization
-- **Analyst**: Business intelligence and data-driven insights
-- **Developer**: Technical documentation and code analysis
-- **Writer**: Content creation and fact-checking support
-- **Custom**: User-defined analysis requirements
+- **Researcher**: Academic and professional research focus with methodology analysis
+- **Student**: Learning and academic project optimization with concept explanations
+- **Analyst**: Business intelligence and data-driven insights with trend analysis
+- **Developer**: Technical documentation and code analysis with implementation guidance
+- **Writer**: Content creation and fact-checking support with narrative structure analysis
+- **Custom**: User-defined analysis requirements with personalized prompts
 
 ### **AI Insight Types**
-- **Summary**: Concise document overviews
-- **Related Content**: Cross-document connections
-- **Contradictions**: Identifying conflicting information
-- **Enhancements**: Suggestions for improvement
+- **Summary**: Concise document overviews with key takeaways
+- **Related Content**: Cross-document connections and thematic relationships
+- **Contradictions**: AI-powered identification of conflicting information
+- **Enhancements**: Suggestions for content improvement and expansion
 
 ---
 
-## 🌐 **API Integration**
+## 🌐 **API Integration & Endpoints**
 
-### **Backend Requirements**
-The frontend is designed to integrate with backend services that provide:
-
-- **Document Processing**: PDF parsing and text extraction
-- **AI Analysis**: Gemini 1.5 Pro or similar AI model integration
-- **Knowledge Graph**: Graph database for relationship storage
-- **Audio Generation**: Text-to-speech and audio processing
-- **User Management**: Authentication and user preferences
-
-### **API Endpoints**
+### **Core API Endpoints**
 ```typescript
-// Document Analysis
-POST /api/analyze-document
-POST /api/generate-insights
-POST /api/create-knowledge-graph
+// Document Processing
+POST /extract/1a/process-pdf          # Smart outline extraction
+POST /upload                           # Document upload and indexing
 
-// Audio Features
-POST /api/generate-audio
-POST /api/conversational-overview
+// Search & Discovery
+POST /search/semantic                  # Semantic search with FAISS
+POST /search/keyword                   # Keyword search with SQLite FTS5
+POST /search/hybrid                    # Hybrid search fusion
 
-// User Management
-POST /api/auth/login
-GET /api/user/preferences
+// AI Analysis
+POST /insights/selection               # Context-specific insights
+POST /persona_analysis                 # Persona-based analysis
+POST /ask_ai                           # Global question answering
+
+// Audio Generation
+POST /podcast/script                   # AI-generated podcast scripts
+POST /podcast/audio                    # Text-to-speech audio generation
+
+// Knowledge Graph
+GET /knowledge-graph                   # Dynamic graph generation
 ```
 
----
+### **Backend Requirements**
+The frontend integrates with backend services providing:
 
-## 🎨 **UI/UX Features**
-
-### **Design Principles**
-- **Minimalism**: Clean, distraction-free interface
-- **Accessibility**: WCAG 2.1 AA compliance
-- **Responsiveness**: Mobile-first design approach
-- **Performance**: Optimized for smooth interactions
-
-### **Color Scheme**
-- **Primary**: Modern blue (#3B82F6)
-- **Secondary**: Professional slate (#64748B)
-- **Accent**: Vibrant red (#EF4444)
-- **Background**: Dark theme (#0F172A)
+- **Document Processing**: PDF parsing, text extraction, and structure analysis
+- **AI Analysis**: Gemini 2.5 Flash integration for intelligent insights
+- **Knowledge Graph**: Graph database for relationship storage and visualization
+- **Audio Generation**: Azure TTS and podcast script generation
+- **User Management**: Session management and user preferences
 
 ---
 
 ## 📊 **Performance & Advanced Optimizations**
 
-### **Frontend Performance Optimizations**
-- **Code Splitting**: Route-based and component-level code splitting for optimal loading
+### **Frontend Performance**
+- **Code Splitting**: Route-based and component-level splitting for optimal loading
 - **Lazy Loading**: Dynamic component imports with React.lazy() and Suspense
-- **Image Optimization**: WebP format support, lazy loading, and responsive images
-- **Bundle Analysis**: Webpack bundle analyzer with tree-shaking optimization
+- **Bundle Optimization**: Tree-shaking with Rollup optimization and bundle analysis
 - **Virtual Scrolling**: Efficient rendering of large document lists
 - **Memoization**: React.memo() and useMemo() for expensive calculations
-- **State Optimization**: Zustand with selective subscriptions to minimize re-renders
 
-### **Backend AI & Processing Optimizations**
+### **AI & Backend Optimizations**
 - **Gemini API Optimization**:
-  - **Token Management**: Input token limit of 4000, output limit of 500 for faster responses
-  - **Batch Processing**: Groups of 5 requests processed simultaneously
-  - **Response Caching**: 7-day TTL cache for identical queries
-  - **Request Debouncing**: 300ms delay to prevent excessive API calls
-  - **Circuit Breaker**: Automatic fallback when API limits are exceeded
+  - Token management with 4000 input / 500 output limits
+  - Batch processing with 5 simultaneous requests
+  - Response caching with 7-day TTL
+  - Request debouncing with 300ms delay
 - **Content Processing**:
-  - **Chunking Strategy**: 2KB chunks with 200-character overlap for optimal context
-  - **Quality Assessment**: Content quality scoring before processing
-  - **Parallel Processing**: Multi-threaded document analysis
-  - **Memory Management**: Streaming processing for large documents
+  - Intelligent chunking with metadata preservation
+  - Quality assessment before processing
+  - Multi-threaded document analysis
+  - Streaming processing for large documents
 
-### **Mathematical Algorithm Optimizations**
-- **Graph Processing**:
-  - **Spatial Indexing**: R-tree for efficient node positioning
-  - **Edge Pruning**: Minimum weight threshold to reduce graph complexity
-  - **Incremental Updates**: Delta processing for graph modifications
-  - **Memory Pool**: Pre-allocated memory for graph operations
-- **NLP Optimizations**:
-  - **Embedding Caching**: Pre-computed embeddings with LRU cache (1000 items)
-  - **Similarity Search**: Approximate nearest neighbor with FAISS indexing
-  - **Text Preprocessing**: Optimized tokenization and normalization pipelines
-
-### **Performance Metrics & Monitoring**
+### **Performance Metrics**
 - **Lighthouse Score**: 95+ performance rating
-- **Core Web Vitals**:
-  - **First Contentful Paint**: < 1.5s
-  - **Largest Contentful Paint**: < 2.5s
-  - **Cumulative Layout Shift**: < 0.1
-  - **First Input Delay**: < 100ms
-- **Custom Metrics**:
-  - **AI Response Time**: < 3s for insights generation
-  - **Graph Rendering**: < 500ms for 1000+ nodes
-  - **Document Loading**: < 2s for 10MB PDFs
-  - **Audio Generation**: < 5s for 5000-character content
+- **Core Web Vitals**: FCP < 1.5s, LCP < 2.5s, CLS < 0.1, FID < 100ms
+- **AI Response Time**: < 3s for insights generation
+- **Graph Rendering**: < 500ms for 1000+ nodes
+- **Document Loading**: < 2s for 10MB PDFs
 
 ---
 
 ## 🧪 **Testing & Quality Assurance**
 
 ### **Testing Strategy**
-- **Unit Tests**: Component and utility function testing
+- **Unit Tests**: Component and utility function testing with Vitest
 - **Integration Tests**: API integration testing
-- **E2E Tests**: User workflow testing
-- **Accessibility Tests**: Screen reader and keyboard navigation
+- **E2E Tests**: User workflow testing with Playwright
+- **Accessibility Tests**: Screen reader and keyboard navigation compliance
 
 ### **Code Quality**
-- **ESLint**: JavaScript/TypeScript linting
-- **Prettier**: Code formatting
-- **TypeScript**: Static type checking
-- **Husky**: Git hooks for quality gates
+- **ESLint**: JavaScript/TypeScript linting with custom rules
+- **Prettier**: Code formatting and consistency
+- **TypeScript**: Static type checking and type safety
+- **Husky**: Git hooks for pre-commit quality gates
 
 ---
 
-## 🚀 **Deployment**
+## 🚀 **Deployment & Production**
 
 ### **Production Build**
 ```bash
@@ -451,17 +388,23 @@ npm run preview
 netlify deploy --prod
 ```
 
-### **Environment Variables**
+### **Docker Production**
 ```bash
-# Required environment variables
-VITE_API_BASE_URL=your_api_url
-VITE_AI_API_KEY=your_ai_api_key
-VITE_ANALYTICS_ID=your_analytics_id
+# Multi-stage production build
+docker build -t connect-the-dots:prod .
+
+# Run production container
+docker run -d \
+  --name connect-the-dots \
+  -p 80:8080 \
+  -p 8000:8000 \
+  --restart unless-stopped \
+  connect-the-dots:prod
 ```
 
 ---
 
-## 🤝 **Contributing**
+## 🤝 **Contributing & Development**
 
 We welcome contributions from the community! Please read our contributing guidelines:
 
@@ -472,50 +415,59 @@ We welcome contributions from the community! Please read our contributing guidel
 5. **Open a Pull Request**
 
 ### **Development Guidelines**
-- Follow TypeScript best practices
+- Follow TypeScript best practices and maintain type safety
 - Maintain consistent code style with Prettier
 - Write comprehensive tests for new features
 - Update documentation for API changes
+- Follow accessibility guidelines (WCAG 2.1 AA)
 
 ---
 
-## 📈 **Roadmap**
+## 📈 **Roadmap & Future Plans**
 
 ### **Phase 1: Core Platform** ✅
-- [x] Document upload and management
-- [x] Basic AI insights generation
-- [x] Persona-based configuration
-- [x] Knowledge graph foundation
+- [x] Document upload and workspace management
+- [x] AI-powered insights generation
+- [x] Persona-based research configuration
+- [x] Knowledge graph visualization
+- [x] Adobe Embed API integration
+- [x] Audio generation and podcast features
 
 ### **Phase 2: Advanced Features** 🚧
-- [ ] Real-time collaboration
-- [ ] Advanced knowledge graph algorithms
-- [ ] Multi-language support
-- [ ] Mobile application
+- [ ] Real-time collaboration and shared workspaces
+- [ ] Advanced knowledge graph algorithms and analytics
+- [ ] Multi-language support for global accessibility
+- [ ] Mobile application (React Native)
+- [ ] Advanced search filters and saved searches
 
 ### **Phase 3: Enterprise Features** 📋
-- [ ] Team workspaces
-- [ ] Advanced analytics
-- [ ] API marketplace
-- [ ] Enterprise integrations
+- [ ] Team workspaces and role-based access control
+- [ ] Advanced analytics and usage insights
+- [ ] API marketplace for third-party integrations
+- [ ] Enterprise integrations (Notion, Slack, Google Drive, Microsoft Teams)
+- [ ] Advanced security and compliance features
 
 ---
 
-## 📚 **Documentation**
+## 📚 **Documentation & Resources**
 
 - **API Reference**: [docs/api.md](docs/api.md)
 - **Component Library**: [docs/components.md](docs/components.md)
 - **Deployment Guide**: [docs/deployment.md](docs/deployment.md)
 - **Contributing Guide**: [docs/contributing.md](docs/contributing.md)
+- **User Guide**: [docs/user-guide.md](docs/user-guide.md)
 
 ---
 
-## 🏆 **Acknowledgments**
+## 🏆 **Acknowledgments & Technologies**
 
-- **AI Integration**: Powered by Google Gemini 1.5 Pro
+- **AI Integration**: Powered by Google Gemini 2.5 Flash
+- **PDF Viewing**: Adobe Embed API for professional document rendering
 - **UI Components**: Built with Shadcn/ui and Tailwind CSS
-- **Animations**: Enhanced with GSAP
+- **Animations**: Enhanced with GSAP for smooth interactions
 - **Icons**: Beautiful icons from Lucide React
+- **Audio Generation**: Azure Cognitive Services for premium TTS and podcast features
+- **Backend Framework**: FastAPI for high-performance API development
 
 ---
 
@@ -529,17 +481,22 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Documentation**: [docs.connectthedots.ai](https://docs.connectthedots.ai)
 - **Issues**: [GitHub Issues](https://github.com/yourusername/connect-the-dots/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/connect-the-dots/discussions)
+- **Discussions**: [GitHub Discussions](https://github.com/yourusername/connect-the-dots/issues)
 - **Email**: support@connectthedots.ai
+- **Demo Video**: [Watch Full Demo](https://drive.google.com/file/d/1RcAaZyuTcGVVVDMv-PSx8c70OKbpVHP-/view?usp=sharing)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by the Connect-the-Dots Team**
+**Made with ❤️ by Team ZeroToOne**
 
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/connect-the-dots?style=social)](https://github.com/yourusername/connect-the-dots)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/connect-the-dots?style=social)](https://github.com/yourusername/connect-the-dots)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/connect-the-dots)](https://github.com/yourusername/connect-the-dots/issues)
+[![GitHub issues](https://img.shields.io/badge/GitHub%20Issues-0-brightgreen)](https://github.com/yourusername/connect-the-dots/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**Connect-the-Dots: Transforming Passive Reading into Active Knowledge Building** 🚀
 
 </div>
+
