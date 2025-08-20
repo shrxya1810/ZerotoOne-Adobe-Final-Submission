@@ -161,29 +161,6 @@ Connect-the-Dots leverages **AI-powered document analysis**, **persona-based res
 - Modern web browser with ES6+ support
 - Docker (for containerized deployment)
 
-### **Local Development Setup**
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/connect-the-dots.git
-cd connect-the-dots
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Run type checking
-npm run typecheck
-
-# Run tests
-npm run test
-```
-
 ### **Environment Configuration**
 
 #### **Required API Keys**
@@ -376,18 +353,6 @@ The frontend integrates with backend services providing:
 
 ## 🚀 **Deployment & Production**
 
-### **Production Build**
-```bash
-# Build optimized production bundle
-npm run build
-
-# Preview production build
-npm run preview
-
-# Deploy to Netlify
-netlify deploy --prod
-```
-
 ### **Docker Production**
 ```bash
 # Multi-stage production build
@@ -420,42 +385,6 @@ We welcome contributions from the community! Please read our contributing guidel
 - Write comprehensive tests for new features
 - Update documentation for API changes
 - Follow accessibility guidelines (WCAG 2.1 AA)
-
----
-
-## 📈 **Roadmap & Future Plans**
-
-### **Phase 1: Core Platform** ✅
-- [x] Document upload and workspace management
-- [x] AI-powered insights generation
-- [x] Persona-based research configuration
-- [x] Knowledge graph visualization
-- [x] Adobe Embed API integration
-- [x] Audio generation and podcast features
-
-### **Phase 2: Advanced Features** 🚧
-- [ ] Real-time collaboration and shared workspaces
-- [ ] Advanced knowledge graph algorithms and analytics
-- [ ] Multi-language support for global accessibility
-- [ ] Mobile application (React Native)
-- [ ] Advanced search filters and saved searches
-
-### **Phase 3: Enterprise Features** 📋
-- [ ] Team workspaces and role-based access control
-- [ ] Advanced analytics and usage insights
-- [ ] API marketplace for third-party integrations
-- [ ] Enterprise integrations (Notion, Slack, Google Drive, Microsoft Teams)
-- [ ] Advanced security and compliance features
-
----
-
-## 📚 **Documentation & Resources**
-
-- **API Reference**: [docs/api.md](docs/api.md)
-- **Component Library**: [docs/components.md](docs/components.md)
-- **Deployment Guide**: [docs/deployment.md](docs/deployment.md)
-- **Contributing Guide**: [docs/contributing.md](docs/contributing.md)
-- **User Guide**: [docs/user-guide.md](docs/user-guide.md)
 
 ---
 
