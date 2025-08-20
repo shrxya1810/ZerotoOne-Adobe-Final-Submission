@@ -24,7 +24,9 @@ docker run \
 ```
 
 **Access the application at:**
-- APP: http://localhost:8080
+- APP: http://localhost:8080 \
+Wait for backend to start. We are good to go when **INFO:     Application startup complete** is displayed
+
 ---
 
 > **Transform your research workflow with intelligent document analysis, AI-powered insights, and seamless knowledge discovery.**
