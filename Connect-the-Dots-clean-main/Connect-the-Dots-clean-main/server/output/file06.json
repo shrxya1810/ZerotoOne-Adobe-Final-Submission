@@ -1,0 +1,45 @@
+{
+    "title": "日本の四季と文化",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "桜 (Cherry Blossoms)",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "ゴールデンウィーク (Golden Week)",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "祇園祭 (Gion Matsuri)",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "夏の食べ物 (Summer Foods)",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "紅葉 (Autumn Leaves)",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "秋の食べ物 (Autumn Foods)",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "雪祭り (Snow Festivals)",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "さっぽろ雪まつり (Sapporo Snow Festival)",
+            "page": 2
+        }
+    ]
+}
