@@ -24,9 +24,7 @@ docker run \
 ```
 
 **Access the application at:**
-- Frontend: http://localhost:8080
-- Backend API: http://localhost:8000
-
+- APP: http://localhost:8080
 ---
 
 > **Transform your research workflow with intelligent document analysis, AI-powered insights, and seamless knowledge discovery.**
