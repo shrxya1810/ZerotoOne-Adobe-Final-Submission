@@ -29,16 +29,11 @@ Wait for backend to start. We are good to go when **INFO:     Application startu
 
 ---
 
-> **Transform your research workflow with intelligent document analysis, AI-powered insights, and seamless knowledge discovery.**
+# Video Demo
+<a>https://drive.google.com/file/d/1RcAaZyuTcGVVVDMv-PSx8c70OKbpVHP-/view?usp=sharing<a>
 
-[![React](https://img.shields.io/badge/React-18.0+-blue.svg)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0+-38B2AC.svg)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-5.0+-646CFF.svg)](https://vitejs.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 🌟 **Project Overview**
-
+# Project Overview
 Connect-the-Dots is a cutting-edge research platform that revolutionizes how researchers, students, and professionals interact with documents. By combining advanced AI capabilities with an intuitive interface, it transforms static PDFs into dynamic, interconnected knowledge networks.
 
 ### **🎯 Core Mission**
