@@ -2,7 +2,7 @@
 
 ## 🔑 **IMPORTANT: Adobe Embed API Key**
 ```
-ADOBE_EMBED_API_KEY:98e7a97c303a4803b955a5af21f1185f
+ADOBE_EMBED_API_KEY="98e7a97c303a4803b955a5af21f1185f"
 ```
 **This API key is required for PDF viewing functionality. Set it as `ADOBE_EMBED_API_KEY` while running docker.**
 
