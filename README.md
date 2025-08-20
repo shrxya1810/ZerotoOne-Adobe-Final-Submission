@@ -293,7 +293,35 @@ POST /podcast/audio                    # Text-to-speech audio generation
 // Knowledge Graph
 GET /knowledge-graph                   # Dynamic graph generation
 ```
+### **1. Backend Setup (unified-doc-intelligence)**
 
+```bash
+# Navigate to backend directory
+cd unified-doc-intelligence
+
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Method 1: Using the startup script
+python start_backend.py
+
+# Method 2: Direct uvicorn command
+uvicorn backend.app:app --reload --host 0.0.0.0 --port 8000
+```
+
+### **2. Frontend Setup (Connect-the-Dots)**
+
+```bash
+# Navigate to frontend directory
+cd Connect-the-Dots-clean-main/Connect-the-Dots-clean-main
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+```
 ### **Backend Requirements**
 The frontend integrates with backend services providing:
 
